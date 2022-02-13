@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class AppuserController {
-
+//check git rebase 1
     @Autowired
     AppuserService appuserService;
 
