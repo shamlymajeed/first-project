@@ -25,7 +25,6 @@ public class AppuserController {
 
         return appuserService.findAppuserByusername(username);
     }
-//rebase 3 test commit
     @PostMapping(path="/addUser")
     public void addUser(@RequestBody Appuser appuser){
         appuserService.addUser(appuser);
