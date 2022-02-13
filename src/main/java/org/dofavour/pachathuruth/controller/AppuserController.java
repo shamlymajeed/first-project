@@ -12,7 +12,7 @@ public class AppuserController {
 
 //test merge log commits 1
 //test merge log commits 1
-
+//another test commit
     @RequestMapping(path="/all")
     public  Iterable<Appuser> getAllUsers() {
 
