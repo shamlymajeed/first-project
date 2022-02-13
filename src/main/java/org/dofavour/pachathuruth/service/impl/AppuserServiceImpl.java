@@ -22,4 +22,18 @@ public class AppuserServiceImpl implements AppuserService {
     public Appuser findAppuserByusername(String username){
         return appuserRepository.findByUsername(username);
     }
+
+    @Override
+    public void addUser(Appuser appuser) {
+
+        appuserRepository.save(appuser);
+
+    }
+
+    @Override
+    public void updateUser(Appuser appuser) {
+        appuserRepository.save(appuser);
+    }
+
+
 }
