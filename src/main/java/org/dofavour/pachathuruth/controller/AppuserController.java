@@ -7,13 +7,10 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class AppuserController {
-//check git rebase 1
-//check git rebase 2
-//rebase4 test
     @Autowired
     AppuserService appuserService;
 
-
+//test merge log commits 1
     @RequestMapping(path="/all")
     public  Iterable<Appuser> getAllUsers() {
 
