@@ -11,6 +11,8 @@ public class AppuserController {
     AppuserService appuserService;
 
 //test merge log commits 1
+//test merge log commits 1
+
     @RequestMapping(path="/all")
     public  Iterable<Appuser> getAllUsers() {
 
